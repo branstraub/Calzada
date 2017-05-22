@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/AdministracionYebraWeb/bin
+/AdministracionYebraWeb/obj/Debug
+/packages
+/AdministracionYebraWeb/obj/Release/Package
+/AdministracionYebraWeb/obj/Release
+/CalzadaWeb/bin
+/CalzadaWeb/obj
