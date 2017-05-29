@@ -33,7 +33,7 @@ namespace CalzadaWeb.Controllers
             var mailMsg = new MailMessage();
             mailMsg.To.Add(new MailAddress("recepcion.admyebra@gmail.com", "ADM Yebra"));
             mailMsg.From = new MailAddress(model.Email, model.Name);
-            mailMsg.Subject = "Nuevo Formulario - General";
+            mailMsg.Subject = "Contacto";
                   
                   
 
