@@ -102,19 +102,43 @@
                 
                 <!-- ARTICULO SEIS -->
 			    <section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
-                    <div class="content">
-                        <h2>Lambayeque necesita hoy más que nunca la represa La Calzada</h2>
-                        <p>Ante los constantes desbordes, la región Lambayeque tiene muchas zonas vulnerables, en especial en el valle La Leche, dónde se han registrado grandes pérdidas en los últimos 30 años.</p>
-                        <ul class="actions vertical">
-                            <li><a href="#" class="button">Leer más</a></li>
-                        </ul>
-                    </div>
-                    <div class="image">
-                        <img src="~/Content/images/calzada/11.jpg" alt="" />
-                    </div>
-                </section>
+			        <div class="content">
+			            <h2>Lambayeque necesita hoy más que nunca la represa La Calzada</h2>
+			            <p>Ante los constantes desbordes, la región Lambayeque tiene muchas zonas vulnerables, en especial en el valle La Leche, dónde se han registrado grandes pérdidas en los últimos 30 años.</p>
+			            <ul class="actions vertical">
+			                <li><a href="#" class="button">Leer más</a></li>
+			            </ul>
+			        </div>
+			        <div class="image">
+			            <img src="~/Content/images/calzada/11.jpg" alt="" />
+			        </div>
+			    </section>
                 
+			    <section style="padding: 50px">
+			        <h1 style="text-align: center">¿Donde queda la Calzada?</h1>
+                    <br/>
+			        <div id="map"></div>
+			    </section>
+                
+			 
 
+			    <script>
+                     function initMap() {
+                         var uluru = { lat: -6.4518593, lng: -79.8550452 };
+                         var map = new google.maps.Map(document.getElementById('map'),
+                             {
+                                 zoom: 17,
+                                 center: uluru
+                             });
+                         var marker = new google.maps.Marker({
+                             position: uluru,
+                             map: map
+                         });
+                     }
+                </script>
+                <script async defer
+                        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBgHPgZwoI0Hxo0g2k9nHP2smjAda3Rehk&callback=initMap">
+                </script>
 
                 
     

@@ -56,6 +56,15 @@
 		box-sizing: border-box;
 	}
 
+
+#map {
+    height: 400px;
+    width: 800px;
+    /* width: 50%; */
+    margin: 50px auto;
+    display: block;
+}
+
 /* Grid */
 
 	.row {
