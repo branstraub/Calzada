@@ -58,10 +58,10 @@
 
 
 #map {
-    height: 400px;
-    width: 800px;
+    height: 500px;
+    width: 90%;
     /* width: 50%; */
-    margin: 50px auto;
+    margin: 30px auto;
     display: block;
 }
 
