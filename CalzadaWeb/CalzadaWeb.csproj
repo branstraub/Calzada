@@ -247,7 +247,6 @@
     <Content Include="Content\assets\sass\libs\_skel.scss" />
     <Content Include="Content\assets\sass\libs\_vars.scss" />
     <Content Include="Content\assets\sass\main.scss" />
-    <None Include="Properties\PublishProfiles\administracionyebra - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\lacalzada - Web Deploy.pubxml" />
   </ItemGroup>
   <ItemGroup>
